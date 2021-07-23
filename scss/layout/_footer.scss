@@ -1,0 +1,85 @@
+footer{
+    bottom: 0px;
+    width: 100%;
+    background-color: $colorFooter;
+    color: white;
+    padding-top: 10px;
+
+}
+
+.mainFooter{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.leftBox .content p{
+    text-align: justify;
+}
+.leftBox .content .social{
+    margin: 40px;
+}
+
+
+.leftBox .content .social a {
+    padding: 0 2px; 
+}
+
+.leftBox .content .social a span{
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 5px;
+    align-items: center;
+    color: #fff;
+
+}
+
+.leftBox .content .social a span:hover{
+    background: rgb(6, 245, 193);
+
+}
+
+.footerBottom{
+    background-color: rgb(0, 0, 0);
+    width: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.centerBox .text{
+    font-weight: 20px;
+}
+
+
+// MEDIA QUERIES
+@media only screen and (max-width: 1400px) {
+}
+
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 992px) {
+    .mainFooter{   
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .leftBox{
+        margin-top: 10px;
+    }
+    .centerBox {
+        margin: 30px 
+    }
+    .rightBox{
+        margin-bottom: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+}    
+
+@media only screen and (max-width: 576px) {
+}

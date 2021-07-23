@@ -1,0 +1,41 @@
+// GALERIA DE IMAGENES
+
+.row-cols-md-3 .card-img-top{
+    width: auto;
+    height: 550px;
+    object-fit: cover;
+    cursor: pointer;
+    box-shadow: 0 0 5px;
+}
+
+.card-text{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+// MEDIA QUERIES
+@media only screen and (max-width: 1400px) {
+}
+
+@media only screen and (max-width: 1200px) {
+    .card-img-top {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+}    
+
+
+@media only screen and (max-width: 576px) {
+
+}

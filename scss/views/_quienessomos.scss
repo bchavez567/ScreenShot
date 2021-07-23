@@ -1,0 +1,59 @@
+.mainQuienes{
+    display: flex;
+}
+.mainSection{
+    width: 70%;
+    padding: 1rem;
+}
+.mainAside{
+    width: 30%;
+}
+.mainAside img{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.h1Quienes{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Padauk', sans-serif;
+    border: 2px solid black;
+}
+
+.pMain{
+    font-size: 20px;
+    font-family: 'Padauk', sans-serif;
+    padding: 1rem;
+
+}
+
+// MEDIA QUERIES
+@media only screen and (max-width: 1400px) {
+    
+}
+@media only screen and (max-width: 1200px) {
+
+}
+@media only screen and (max-width: 992px) {
+
+    .mainQuienes{
+        display: table-row;
+    }
+    .mainSection{
+        width: 100%;
+
+    }
+    .mainAside{
+        width: auto;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+
+}    
+@media only screen and (max-width: 576px) {
+
+}

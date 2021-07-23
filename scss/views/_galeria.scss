@@ -1,0 +1,50 @@
+.container{
+    width: 90%;
+    margin: 3em auto 3em auto;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap: 30px;
+}
+
+.item{
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.itemText{
+    padding: 1em;
+}
+.itemImg{
+    max-width: 100%;
+    display: block;
+    box-shadow: 0 0 5px;
+}
+
+
+.h1Galeria{
+    font-size: 40px;
+    font-family: 'Padauk', sans-serif;
+    border: 2px solid black;
+    text-align: center;
+}
+
+// MEDIA QUERIES
+@media only screen and (max-width: 1400px) {
+}
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 992px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+}    
+
+
+@media only screen and (max-width: 576px) {
+
+}

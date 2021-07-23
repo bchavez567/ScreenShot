@@ -1,0 +1,39 @@
+.bodyPage{
+    background-color: black;
+}
+
+.container404{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    
+}
+
+.container404 h1{
+    font-size: 200px;
+    color: #ffff;
+    margin: 0;
+    font-weight: 900;
+}
+
+.container404 p{
+    color: #ffff;
+    font-size: 30px;
+}
+
+.container404 h2{
+    color: #ffff;
+    font-size: 30px;
+}
+
+.container404 a{
+    text-decoration: none;
+    padding: 12px 24px;
+    display: inline-block;
+    border-radius: 25px;
+    color: #ffff;
+    background: $colorFooter;
+    font-size: 18px;
+}

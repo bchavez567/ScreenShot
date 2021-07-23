@@ -1,0 +1,113 @@
+.itemNav{
+    grid-area: menu;
+}
+
+.menu{
+    background: rgb(61, 61, 228);
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuItems{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.menuItems li{
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.menuItems li a {
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 13px;
+    display: block;
+    color: #ffff;
+}
+
+.menuItems li:hover, li:active{
+    background-color: rgb(6, 245, 193);
+}
+
+
+.h1Servicio{
+    text-align: center;
+    font-size: 40px;
+    font-family:$tipoBody;
+    border: 2px solid black;
+}
+
+.pIndex{
+    background-color: #fff;
+}
+
+.bg-primary{
+    background-color: $colorMenu!important;
+}
+
+.card-img-top{
+    object-fit: cover;
+    box-shadow: 0 0 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#carouselExampleIndicators{
+    cursor: pointer;
+}
+
+
+.d-block{
+    height: 500px;
+    box-shadow:currentColor;
+    border-radius: 2px;
+}
+
+.card-title{
+    color: #ffff;
+    border-radius: 2px;
+    background-color: $colorFooter;
+}
+
+
+// MEDIA QUERIES
+@media only screen and (max-width: 1400px) {
+}
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 992px) {
+    
+}
+
+@media only screen and (max-width: 768px) {
+    font-size: auto;
+}    
+
+@media only screen and (max-width: 576px) {
+    /* MENU */
+    .menu{
+        height: 150px;
+        flex-direction: column;
+        margin: 3em auto 3em auto;
+    }
+    .menuItems{
+        margin: 0;
+    }
+
+    /* MAIN INDEX */
+    .mainIndex{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+}
