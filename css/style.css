@@ -255,11 +255,20 @@ footer {
 .contactForm .inputBox input:valid ~ span
 .contactForm .inputBox textarea:focus ~ span,
 .contactForm .inputBox textarea:valid ~ span {
-  color: #e91e63;
+  color: #111111;
   font-size: 12px;
   transform: translateY(-10px); }
 
 .contactForm .inputBox input[type="submit"] {
+  width: 100px;
+  background: #00bcd4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 20px; }
+
+#btn {
   width: 100px;
   background: #00bcd4;
   color: #fff;
