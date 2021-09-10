@@ -1,9 +1,10 @@
 footer{
     bottom: 0px;
     width: 100%;
-    background-color: $colorFooter;
+    background-color: rgb(0, 0, 0);
     color: white;
     padding-top: 10px;
+    margin-top: 2px;
 
 }
 
@@ -42,7 +43,6 @@ footer{
 }
 
 .footerBottom{
-    background-color: rgb(0, 0, 0);
     width: center;
     padding: 20px;
     text-align: center;

@@ -4,8 +4,7 @@
   box-sizing: border-box; }
 
 body {
-  background-color: #f4f4f4;
-  font-family: "Padauk", sans-serif; }
+  background-color: #f4f4f4; }
 
 .itemNav {
   grid-area: menu; }
@@ -40,7 +39,6 @@ body {
 .h1Servicio {
   text-align: center;
   font-size: 40px;
-  font-family: "Padauk", sans-serif;
   border: 2px solid black; }
 
 .pIndex {
@@ -69,6 +67,53 @@ a {
   color: #ffff;
   border-radius: 2px;
   background-color: #00bcd4; }
+
+#theme {
+  padding: 7px 13px;
+  text-decoration: none;
+  border-radius: 2px;
+  font-size: 15 px;
+  display: block;
+  background-color: #fff;
+  align-items: center; }
+
+#api {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  margin: 30px; }
+
+#dolar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 40px;
+  height: auto; }
+
+#icon {
+  font-size: 40px;
+  height: 50px;
+  color: #00bcd4; }
+
+#btn1 {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  border: none;
+  text-decoration: none;
+  color: none; }
+
+#btn2 {
+  height: 50px;
+  width: 50px;
+  text-decoration: none;
+  border: none;
+  color: none; }
+
+@media only screen and (max-width: 1200px) {
+  #api {
+    display: block;
+    align-items: center; } }
 
 @media only screen and (max-width: 768px) {
   font-size: auto; }
@@ -99,6 +144,16 @@ a {
   text-decoration: none;
   color: black; }
 
+.btn-primary {
+  height: 50px;
+  width: 100px;
+  text-align: center; }
+
+.cart img {
+  height: 40px;
+  padding-right: 5px;
+  position: center; }
+
 @media only screen and (max-width: 1200px) {
   .card-img-top {
     height: auto; } }
@@ -106,9 +161,10 @@ a {
 footer {
   bottom: 0px;
   width: 100%;
-  background-color: #00bcd4;
+  background-color: black;
   color: white;
-  padding-top: 10px; }
+  padding-top: 10px;
+  margin-top: 2px; }
 
 .mainFooter {
   display: flex;
@@ -137,7 +193,6 @@ footer {
   background: #06f5c1; }
 
 .footerBottom {
-  background-color: black;
   width: center;
   padding: 20px;
   text-align: center; }
@@ -280,6 +335,9 @@ footer {
 a {
   text-decoration: none;
   color: black; }
+
+h4 {
+  color: #fff; }
 
 @media only screen and (max-width: 992px) {
   .container {

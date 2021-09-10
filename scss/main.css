@@ -7,7 +7,6 @@
 
 body {
   background-color: #f4f4f4;
-  font-family: "Padauk", sans-serif;
 }
 
 .itemNav {
@@ -57,7 +56,6 @@ body {
 .h1Servicio {
   text-align: center;
   font-size: 40px;
-  font-family: "Padauk", sans-serif;
   border: 2px solid black;
 }
 
@@ -96,6 +94,75 @@ a {
   color: #ffff;
   border-radius: 2px;
   background-color: #00bcd4;
+}
+
+#theme {
+  padding: 7px 13px;
+  text-decoration: none;
+  border-radius: 2px;
+  font-size: 15 px;
+  display: block;
+  background-color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#api {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 20px;
+  margin: 30px;
+}
+
+#dolar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 40px;
+  height: auto;
+}
+
+#icon {
+  font-size: 40px;
+  height: 50px;
+  color: #00bcd4;
+}
+
+#btn1 {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  border: none;
+  text-decoration: none;
+  color: none;
+}
+
+#btn2 {
+  height: 50px;
+  width: 50px;
+  text-decoration: none;
+  border: none;
+  color: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  #api {
+    display: block;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -150,9 +217,10 @@ a {
 footer {
   bottom: 0px;
   width: 100%;
-  background-color: #00bcd4;
+  background-color: black;
   color: white;
   padding-top: 10px;
+  margin-top: 2px;
 }
 
 .mainFooter {
@@ -194,7 +262,6 @@ footer {
 }
 
 .footerBottom {
-  background-color: black;
   width: center;
   padding: 20px;
   text-align: center;
@@ -372,7 +439,7 @@ footer {
 .contactForm .inputBox input:valid ~ span
 .contactForm .inputBox textarea:focus ~ span,
 .contactForm .inputBox textarea:valid ~ span {
-  color: #e91e63;
+  color: #111111;
   font-size: 12px;
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
@@ -385,12 +452,26 @@ footer {
   border: none;
   cursor: pointer;
   padding: 10px;
+  font-size: 20px;
+}
+
+#btn {
+  width: 100px;
+  background: #00bcd4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
   font-size: 18px;
 }
 
 a {
   text-decoration: none;
   color: black;
+}
+
+h4 {
+  color: #fff;
 }
 
 @media only screen and (max-width: 992px) {
