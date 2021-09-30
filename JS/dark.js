@@ -1,3 +1,6 @@
+//BUTTON DRAK MODE
+
+
 $("#theme").on("click", () => {
     if (localStorage.getItem("theme") == "dark") {
         lightTheme()
@@ -28,8 +31,12 @@ const darkTheme = () => {
 
     $("body").css("background-color", "black")
 
+
+
     localStorage.setItem("theme", "dark")
 }
+
+
 
 const lightTheme = () => {
 

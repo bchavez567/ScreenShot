@@ -61,10 +61,33 @@
           <li>
             <button id="theme">Dark Theme</button>
           </li>
-
         </ul>
+
+        <div class="two columns u-pull-right" id="icoCarrito">
+            <ul>
+                <li class="submenu">
+                    <img src="../img/Carrito/cart.png" alt="">
+                    <div id="carrito">
+                        <p class="vacio">Carrito Vacio</p>
+                        <table id="lista-carrito" class="u-full-width">
+                            <thead>
+                                <tr>
+                                    <th>Imagen</th>
+                                    <th>Producto</th>
+                                    <th>Precio</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                
+                            </tbody>
+                        </table>
+                            <a href="#" id="vaciar-carrito" class="btn">vaciar carrito</a>
+
+                    </div>
+                </li>
+            </ul>
+        </div>
         <form class="d-flex">
-          <div class="cart"><img src="../img/Carrito/cart.svg" alt="carrito"></div>
           <input class="form-control me-2" type="search" placeholder="Que estas buscando" aria-label="Search">
           <button class="btn" type="submit">
             <a href="../pages/404.html">Buscar</a>
@@ -75,99 +98,122 @@
     </nav>
 <!-- FIN MENU -->
 
+
+<!-- API JS -->
+
+<h5 class="text-center display-6 my-4" >Cotizacion Dolar</h5>
+<div id="api"></div>
+<div id="dolar">
+    <button id="btn1"> <ion-icon name="arrow-up-circle-outline" class="icon"></ion-icon></button>
+    <button id="btn2"> <ion-icon name="arrow-down-circle-outline" class="icon"></ion-icon> </button>
+</div>
+
+<!-- FIN API JS -->
+
 <!-- INICIO DE GALERIA -->
     <h1 class="text-center display-6 my-4">NUESTROS PRODUCTOS</h1>
     <hr>
-    
-        <div class="row row-cols-1 row-cols-md-4 g-2 p-5 ">
-            <div class="col">
+
+
+
+
+
+
+    <div id="listaProducto">
+
+                    
+    <div class="row row-cols-1 row-cols-md-4 g-2 p-5" id="listaProducto">
+        <div class="col">
             <div class="card h-100">
-                <img src="../img/Galeria/img2.jpeg" class="card-img-top" alt="Auriculares Only">
+                <img src="../img/Galeria/img2.jpeg" class="imagen-platillo u-full-width"  alt="#">
                 <div class="card text-center">
-                <h5 class="card-title">PODS ONLY</h5>
-                <h6 class="card-text">U$D 10</h6>
-                <a href="../pages/404.html" class="btn btn-primary">Comprar</a>
-                </div>
+                    <h4 class="card-title">USB ONLY</h4>
+                    <p class="precio"> U$D <span class="u-pull-right"> 50</span> </p>
+                    <a href="#" class="btn btn-primary button input agregar-carrito" type="button" data-id="1">Agregar</a>
             </div>
-            </div>
-
-            <div class="col">
-            <div class="card h-100">
-                <img src="../img/Galeria/img2.jpeg" class="card-img-top" alt="Usb Only">
-                <div class="card text-center">
-                <h5 class="card-title">USB ONLY</h5>
-                <h6 class="card-text">U$D 10</h6>
-                <a href="#" class="btn btn-primary">Comprar</a>
-            </div>
-            </div>
-            </div>
-
-            <div class="col">
-            <div class="card h-100">
-                <img src="../img/Galeria/img3.jpeg" class="card-img-top" alt="Auriculares Only">
-                <div class="card text-center">
-                <h5 class="card-title">AURICULARES ONLY ROMPEOIDOS 3</h5>
-                <h6 class="card-text">U$D 10</h6>
-                <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-            </div>
-
-            <div class="col">
-            <div class="card h-100">
-                <img src="../img/Galeria/img4.jpeg" class="card-img-top" alt="Parlente Only">
-                <div class="card text-center">
-                <h5 class="card-title">PARLANTE BLUETOOTH</h5>
-                <h6 class="card-text">U$D 10</h6>
-                <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-            </div>
-
-            <div class="col">
-                <div class="card h-100">
-                    <img src="../img/Galeria/img5.jpeg" class="card-img-top" alt="Wacht Only">
-                    <div class="card text-center" >
-                    <h5 class="card-title">SMART WACHT ONLY K-12</h5>
-                    <h6 class="card-text">Se adapta a todo tipos de  Smartphones</h6>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                    </div>
-                </div>
-                </div>
-
-            <div class="col">
-                    <div class="card h-100">
-                        <img src="../img/Galeria/img6.jpeg" class="card-img-top" alt="Cargador Only">
-                        <div class="card text-center">
-                        <h5 class="card-title">CARGADOR PREMIUM ONLY</h5>
-                        <h6 class="card-text">U$D 10</h6>
-                        <a href="#" class="btn btn-primary" >Comprar</a>
-                        </div>
-                    </div>
-                    </div>
-
-            <div class="col">
-                        <div class="card h-100">
-                            <img src="../img/Galeria/img6.jpeg" class="card-img-top" alt="Cargador Only">
-                            <div class="card text-center">
-                            <h5 class="card-title">CARGADOR PREMIUM ONLY</h5>
-                            <h6 class="card-text">U$D 10</h6>
-                            <a href="#" class="btn btn-primary" >Comprar</a>
-                            </div>
-                        </div>
-                        </div>
-
-            <div class="col">
-                    <div class="card h-100">
-                        <img src="../img/Galeria/img6.jpeg" class="card-img-top" alt="Cargador Only">
-                        <div class="card text-center">
-                        <h5 class="card-title">CARGADOR PREMIUM ONLY</h5>
-                        <h6 class="card-text">U$D 10</h6>
-                        <a href="#" class="btn btn-primary" >Comprar</a>
-                        </div>
-                    </div>
-                    </div>
         </div>
+    </div>
+
+        <div class="col">
+            <div class="card h-100">
+                <img src="../img/Galeria/img3.jpeg" class="imagen-platillo u-full-width"  alt="#">
+                <div class="card text-center">
+                <h4 class="card-title">AURICULARES ONLY ROMPEOIDOS 3</h4>
+                <p class="precio">U$D <span class="u-pull-right">40</span> </p>
+                <a href="#" class="btn btn-primary button input agregar-carrito" type="button" data-id="2">Agregar</a>
+            </div>
+        </div>
+    </div>
+
+        <div class="col">
+        <div class="card h-100">
+            <img src="../img/Galeria/img3.jpeg" class="imagen-platillo u-full-width"  alt="#">
+            <div class="card text-center">
+            <h4 class="card-title">AURICULARES ONLY ROMPEOIDOS 4</h4>
+            <p class="precio">U$D <span class="u-pull-right"> 20</span> </p>
+            <a href="#" class="btn btn-primary button input agregar-carrito" type="button" data-id="3">Agregar</a>
+        </div>
+    </div>
+</div>
+
+        <div class="col">
+        <div class="card h-100">
+            <img src="../img/Galeria/img4.jpeg" class="imagen-platillo u-full-width"  alt="#">
+            <div class="card text-center">
+            <h4 class="card-title">PARLANTE BLUETOOTH</h4>
+            <p class="precio"> U$D <span class="u-pull-right"> 35</span> </p>
+            <a href="#" class="btn btn-primary button input agregar-carrito" type="button" data-id="4">Agregar</a>
+            </div>
+        </div>
+        </div>
+
+
+        <div class="col">
+            <div class="card h-100">
+                <img src="../img/Galeria/img5.jpeg" class="imagen-platillo u-full-width"  alt="#">
+                <div class="card text-center">
+                <h4 class="card-title">SMART WACHT ONLY K-12</h4>
+                <p class="precio"> U$D <span class="u-pull-right">100</span> </p>
+                <a href="#" class="btn btn-primary button input agregar-carrito" type="button" data-id="5">Agregar</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <div class="card h-100">
+            <img src="../img/Galeria/img6.jpeg" class="imagen-platillo u-full-width"  alt="Auriculares Only">
+            <div class="card text-center">
+            <h4 class="card-title">CARGADOR PREMIUM ONLY</h4>
+            <p class="precio">U$D <span class="u-pull-right">14</span></p>
+            <a href="#" class="btn btn-primary button input agregar-carrito" type="button" data-id="">Agregar</a>
+        </div>
+    </div>
+</div>
+
+<div class="col">
+    <div class="card h-100">
+        <img src="../img/Galeria/img3.jpeg" class="imagen-platillo u-full-width"  alt="Auriculares Only">
+        <div class="card text-center">
+        <h4 class="card-title">AURICULARES ONLY 2</h4>
+        <p class="precio"> U$D <span class="u-pull-right">8</span> </p>
+        <a href="#" class="btn btn-primary button input agregar-carrito" type="button" data-id="1">Agregar</a>
+    </div>
+</div>
+</div>
+
+<div class="col">
+    <div class="card h-100">
+        <img src="../img/Galeria/img3.jpeg" class="imagen-platillo u-full-width"  alt="Auriculares Only">
+        <div class="card text-center">
+        <h4 class="card-title">AURICULARES ONLY 3</h4>
+        <p class="precio">U$D  <span class="u-pull-right">9</span></p>
+        <a href="#" class="btn btn-primary button input agregar-carrito" type="button" data-id="1">Agregar</a>
+    </div>
+            </div>
+        </div>
+    </div>
+</div>
+        
         <br>
 
 <!-- FIN DE GALERIA -->
@@ -217,8 +263,12 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="../JS/api.js"></script>
     <script src="../JS/dark.js"></script>
     <script src="../JS/carrito.js"></script>
+    <script src="../JS/app.js"></script>
+    <script src="../JS/animacion.js"></script>
+    <script  type = "module"  src = "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" > </ script > 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 
-
+/*
 class Producto {
 
     constructor(id, nombre, categoria, precio){
@@ -51,3 +51,5 @@ const añadirCarrito = (idOnclick) => {
     const obtetoCarrito = productos.find(e => e.id == idOnclick)
 
 }
+
+*/

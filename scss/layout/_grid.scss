@@ -29,6 +29,203 @@ a{
     position: center;
 
 }
+
+
+#api{
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 30px;
+}
+
+
+#dolar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 40px;
+    height: auto;
+}
+
+.icon{
+    font-size: 40px;
+    height: 50px;
+    color: $colorMenu;
+}
+
+#btn1{
+    height: 50px;
+    width: 50px ;
+    margin: 10px;
+    .icon{
+        font-size: 40px;
+        height: 50px;
+    
+    }
+}
+
+#btn2{
+    height: 50px;
+    width: 50px ;
+    .icon{
+        font-size: 40px;
+        height: 50px;
+        color: $colorMenu;
+    }
+}
+
+
+
+// CARRITO
+
+#icoCarrito{
+    display: block;
+    padding-right: 50px;
+}
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+header {
+    padding: 20px 0 0 0;
+    background: #1d2124;
+    text-align: center;
+}
+
+@media (min-width : 750px) {
+    header {
+        text-align: left;
+    }
+}
+
+.borrar-platilo {
+    background-color:$colorMenu;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color:rgb(250, 250, 250);
+    font-weight: bold;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.submenu {
+    position: relative;
+}
+.submenu #carrito{
+    display: none;
+}
+.submenu:hover #carrito{
+    display: block;
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 1;
+    background: #17181b;
+    padding: 10px;
+}
+.vacio {
+    padding: 10px;
+    background-color: $colorMenu;
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+.borrar-platillo{
+    color: white;
+}
+
+#vaciar-carrito{
+    background-color: $colorMenu;
+    color: rgb(255, 255, 255);
+    position: center;
+    border-radius: 5px;
+    display: block;
+
+}
+
+.button {
+    background-color: $colorMenu;
+    color: rgb(255, 255, 255);
+}
+.contenido-hero {
+    margin-top: 80px;
+    color: white;
+}
+.contenido-hero form {
+    position: relative;
+    margin-bottom: 0;
+}
+
+
+.barra {
+    padding: 20px 0 20px;
+    background: $colorMenu;
+    background: -webkit-linear-gradient(left, #b95a00 0%,#ad5400 100% );
+}
+.barra p {
+    margin: 0;
+    color: white;
+}
+.icono {
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 60px;
+    background-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+@media (min-width: 750px) {
+    .icono {
+        margin-bottom: 0;
+    }
+}
+
+
+
+#lista-platillos .row {
+    margin-bottom: 20px;
+}
+.agregar-carrito{
+    margin: 10px 0;
+}
+.card {
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+
+}
+@media (min-width:550px){
+    .card {
+        text-align: left;
+    }
+}
+.info-card {
+    padding: 10px 20px;
+    color: white;
+}
+.info-card p,
+.card h4 {
+    margin-bottom: 5px;
+}
+.info-card .precio {
+    text-decoration: line-through;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.info-card .precio span {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+
+
+
+//
+
 // MEDIA QUERIES
 @media only screen and (max-width: 1400px) {
 }
@@ -37,7 +234,13 @@ a{
     .card-img-top {
         height: auto;
     }
+    #api{
+        display: block;
+        align-items: center;
+
+    }
 }
+
 
 @media only screen and (max-width: 992px) {
 

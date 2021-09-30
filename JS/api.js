@@ -1,4 +1,5 @@
 //API DOLAR SE USA URL Y SE GUARDA UNA LOCAL//
+
 const  url = "https://www.dolarsi.com/api/api.php?type=valoresprincipales"
 
 
@@ -20,5 +21,3 @@ $.getJSON( url, (respuesta , estado) =>{
     }
 }
 )
-
-
