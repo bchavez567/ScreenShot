@@ -19,7 +19,7 @@ JAVA SCRIPT
 
 ///
 
-Se continua el proyecto du DW, en el cual se agrega un carrito de compras, un formulario de contacto, y un dark mode (Jquery), una API del dolar donde se puede ver cada valor de la moneda.
+Se continua el proyecto du DW, en el cual se agrega un carrito de compras donde se agrega el producto y se elimina , un formulario de contacto, y un dark mode (Jquery), una API del dolar donde se puede ver cada valor de la moneda, un array para ver descuentos de 3 bancos que llevan a una page 404.
 
 
 ************************************************************************************************************
